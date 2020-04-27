@@ -8,13 +8,5 @@ angular.module('alurapic').controller('FotosController', function($scope, $http)
     })
     .error(function(erro) {
         console.log(erro);
-    });    
-    
-    // Podemos omitir a declaracao da variavel 'promise'
-    // var promise = $http.get('v1/fotos');
-    // promise.then(function(retorno) {
-    //     $scope.fotos = retorno.data;
-    // }).catch(function(error) {
-    //     console.log(error);
-    // });
+    });
 });
