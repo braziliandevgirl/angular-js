@@ -1,4 +1,5 @@
 angular.module('minhasDiretivas', [])
+
     .directive('meuPainel', function() {
         var ddo = {};
 
